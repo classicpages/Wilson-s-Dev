@@ -142,3 +142,7 @@ canvas{
   position:absolute;
   inset:0;
 }
+
+.footer{
+    text-align: center;
+}
