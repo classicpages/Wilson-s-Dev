@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wild Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="cursor"></div>
+
+<header class="hero">
+  <nav>
+    <h1>WILSON.DEV</h1>
+    <ul>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <div class="hero-content">
+    <h2>I Build Wild Web Experiences</h2>
+    <p>Creative Developer • UI Magician • JavaScript Lover</p>
+    <button id="themeBtn">Switch Vibe</button>
+  </div>
+
+  <canvas id="particles"></canvas>
+</header>
+
+<section id="projects" class="projects">
+  <h2>Featured Projects</h2>
+
+  <div class="project-card">
+    <img src="images/project1.png">
+    <h3>Cyber Dashboard</h3>
+  </div>
+
+  <div class="project-card">
+    <img src="images/project2.png">
+    <h3>AI Studio</h3>
+  </div>
+
+  <div class="project-card">
+    <img src="images/project3.png">
+    <h3>Gaming Universe</h3>
+  </div>
+</section>
+
+<section id="skills" class="skills">
+  <h2>Power Skills</h2>
+  <div class="bars">
+    <div class="bar"><span data-width="95%">JavaScript</span></div>
+    <div class="bar"><span data-width="90%">Animations</span></div>
+    <div class="bar"><span data-width="85%">UI/UX</span></div>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <h2>Let's Work Together</h2>
+  <form>
+    <input type="text" placeholder="Your Name">
+    <input type="email" placeholder="Your Email">
+    <textarea placeholder="Your Message"></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
